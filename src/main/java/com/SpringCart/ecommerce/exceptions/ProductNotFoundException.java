@@ -1,0 +1,7 @@
+package com.SpringCart.ecommerce.exceptions;
+
+public class ProductNotFoundException extends RuntimeException {
+    public ProductNotFoundException(String message) {
+        super(message);
+    }
+}
